@@ -1,0 +1,85 @@
+{
+  "cesp_version": "1.0",
+  "name": "halloween",
+  "display_name": "Halloween Crew",
+  "version": "1.0.0",
+  "author": {
+    "name": "j19s84",
+    "github": "j19s84"
+  },
+  "license": "Mixed — see CREDITS.md for per-sound licenses",
+  "language": "en",
+  "icon": "icons/demon.png",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/ICanSeeYou.wav",
+          "label": "I can see you",
+          "sha256": "1f6438e03a7bb1ee069e9169c3d76d44f3df35a50796e97524a475fe24439f90"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "icon": "icons/witch.png",
+      "sounds": [
+        {
+          "file": "sounds/ZombieMoan.wav",
+          "label": "Zombie moan",
+          "sha256": "a85391c51c27210f33617fff9904c1171ac82a0be712bd5cb9c89684fe507d39"
+        },
+        {
+          "file": "sounds/WelcomeToTheDarkSide.wav",
+          "label": "Welcome to the dark side",
+          "sha256": "da0d680e8d8af57e212af7bc4474db1796afd4a1025e43cb5d10f63383360d66"
+        }
+      ]
+    },
+    "task.complete": {
+      "icon": "icons/skeleton.png",
+      "sounds": [
+        {
+          "file": "sounds/WelcomeToTheDarkSide.wav",
+          "label": "Welcome to the dark side",
+          "sha256": "da0d680e8d8af57e212af7bc4474db1796afd4a1025e43cb5d10f63383360d66"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/No.wav",
+          "label": "No",
+          "sha256": "4c518df9ecc8d3c959115584f4d8f461121064811bcfa96b00ac21c8d9d1af8b"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/CreatureGrowl.wav",
+          "label": "Threatening creature growl",
+          "sha256": "0d77221b4c3c0719058612e4d3b35ae491b2dee003844c5bc7c027e246dd1927"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/ItsTooLate.wav",
+          "label": "It's too late, he is already dead",
+          "sha256": "b823191b94f901d77434573d19122444def9e50a91e2e8dcf33973cd3074fd57"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/CanYouFeelIt.wav",
+          "label": "Can you feel it?",
+          "sha256": "0cc4d332512415c1e1cfe9bf6e68a4e1eb0228f657caecc8abd80de78a6f52b1"
+        }
+      ]
+    }
+  }
+}
