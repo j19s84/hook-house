@@ -5,7 +5,6 @@ A peon-ping pack built from CC0/CC-BY Halloween sound clips (see [CREDITS.md](./
 | Event | Sound | Icon |
 |---|---|---|
 | `session.start` | "I can see you" | demon (default) |
-| `task.acknowledge` | "Zombie moan" / "Welcome to the dark side" (alternating) | witch |
 | `task.complete` | "Welcome to the dark side" | skeleton |
 | `task.error` | "No" | demon (default) |
 | `input.required` | Threatening creature growl | demon (default) |

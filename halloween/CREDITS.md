@@ -5,8 +5,7 @@ Sound sources for the Halloween pack, all from [freesound.org](https://freesound
 | Sound | Source | Author | License |
 |---|---|---|---|
 | I can see you (session start) | [freesound.org/s/856164](https://freesound.org/people/riippumattog/sounds/856164/) | riippumattog | CC0 |
-| Welcome to the dark side (task acknowledge) | [freesound.org/s/831423](https://freesound.org/people/avreference/sounds/831423/) | avreference | CC0 |
-| Zombie moan (task complete) | [freesound.org/s/541621](https://freesound.org/people/dreadwolf910/sounds/541621/) | dreadwolf910 | **CC-BY-NC 4.0** — attribution required, non-commercial only |
+| Welcome to the dark side (task complete) | [freesound.org/s/831423](https://freesound.org/people/avreference/sounds/831423/) | avreference | CC0 |
 | No (task error) | [freesound.org/s/848456](https://freesound.org/people/polerin/sounds/848456/) | polerin | CC0 |
 | Threatening creature growl (input required) | [freesound.org/s/483807](https://freesound.org/people/joao_janz/sounds/483807/) | joao_janz | CC0 |
 | It's too late, he is already dead (resource limit) | [freesound.org/s/826397](https://freesound.org/people/riippumattog/sounds/826397/) | riippumattog | CC0 |

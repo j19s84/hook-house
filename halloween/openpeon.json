@@ -20,21 +20,6 @@
         }
       ]
     },
-    "task.acknowledge": {
-      "icon": "icons/witch.png",
-      "sounds": [
-        {
-          "file": "sounds/ZombieMoan.wav",
-          "label": "Zombie moan",
-          "sha256": "a85391c51c27210f33617fff9904c1171ac82a0be712bd5cb9c89684fe507d39"
-        },
-        {
-          "file": "sounds/WelcomeToTheDarkSide.wav",
-          "label": "Welcome to the dark side",
-          "sha256": "da0d680e8d8af57e212af7bc4474db1796afd4a1025e43cb5d10f63383360d66"
-        }
-      ]
-    },
     "task.complete": {
       "icon": "icons/skeleton.png",
       "sounds": [
