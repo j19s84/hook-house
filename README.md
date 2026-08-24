@@ -1,4 +1,4 @@
-# hook-house 🏚️
+# hook-house 🛎️🏭
 
 Seasonal/themed sound packs for [peon-ping](https://github.com/PeonPing/peon-ping) — the tool that plays voice lines and shows desktop notifications when Claude Code needs your attention.
 
