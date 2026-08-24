@@ -36,11 +36,10 @@ Then use them like:
 
 ```
 /ping-snooze 3       # mute for ~3 hours
-/ping-snooze off     # turn back on early
-/ping-start          # same as "off" — turn sounds back on
+/ping-start           # turn sounds back on
 ```
 
-Note: `/ping-snooze` is a manual-reminder snooze, not a real scheduler — it won't auto-unmute on its own; use `/ping-start` (or `/ping-snooze off`) when you're ready.
+Note: `/ping-snooze` is a manual-reminder snooze, not a real scheduler — it won't auto-unmute on its own; run `/ping-start` when you're ready.
 
 ## Licensing
 
