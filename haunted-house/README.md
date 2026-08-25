@@ -4,12 +4,12 @@ A peon-ping pack built from CC0/CC-BY Halloween sound clips (see [CREDITS.md](./
 
 | Event | Sound | Icon |
 |---|---|---|
-| `session.start` | "I can see you" | demon (default) |
-| `task.complete` | "Welcome to the dark side" | skeleton |
-| `task.error` | "No" | demon (default) |
-| `input.required` | Threatening creature growl | demon (default) |
-| `resource.limit` | "It's too late, he is already dead" | demon (default) |
-| `user.spam` | "Can you feel it?" | demon (default) |
+| `session.start` | "I can see you" / "Eerie forest" | demon (default) |
+| `task.complete` | "Welcome to the dark side" / "33 music boxes" | skeleton |
+| `task.error` | "No" / "Horror laugh" | demon (default) |
+| `input.required` | Threatening creature growl / Crow | demon (default) |
+| `resource.limit` | "It's too late, he is already dead" / "Witch laugh" | demon (default) |
+| `user.spam` | "Can you feel it?" / "Nightmare soundscape" | demon (default) |
 
 ## Install
 
