@@ -1,6 +1,6 @@
 # Credits
 
-Sound sources for the Halloween pack, all from [freesound.org](https://freesound.org). Reverb/pitch/speed processing applied locally with [sox](http://sox.sourceforge.net/) (open source).
+Sound sources for the Haunted House pack, all from [freesound.org](https://freesound.org). Reverb/pitch/speed processing applied locally with [sox](http://sox.sourceforge.net/) (open source).
 
 | Sound | Source | Author | License |
 |---|---|---|---|

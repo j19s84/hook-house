@@ -8,14 +8,14 @@ Each theme lives in its own folder and is a self-contained peon-ping pack (an `o
 
 | Pack | Folder | Status |
 |---|---|---|
-| Halloween Crew | [`halloween/`](./halloween) | ✅ Ready |
+| Haunted House | [`haunted-house/`](./haunted-house) | ✅ Ready |
 | Christmas | `christmas/` | 🔜 Planned |
 
 ## Installing a pack
 
 ```bash
-peon packs install-local /path/to/hook-house/halloween
-peon packs use halloween
+peon packs install-local /path/to/hook-house/haunted-house
+peon packs use haunted-house
 ```
 
 Or copy the folder directly into `~/.claude/hooks/peon-ping/packs/`.
