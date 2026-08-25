@@ -1,4 +1,4 @@
-# Halloween Crew
+# Haunted House
 
 A peon-ping pack built from CC0/CC-BY Halloween sound clips (see [CREDITS.md](./CREDITS.md)), processed locally with [sox](http://sox.sourceforge.net/) reverb, and paired with pixel-art icons.
 
@@ -14,6 +14,6 @@ A peon-ping pack built from CC0/CC-BY Halloween sound clips (see [CREDITS.md](./
 ## Install
 
 ```bash
-peon packs install-local /path/to/hook-house/halloween
-peon packs use halloween
+peon packs install-local /path/to/hook-house/haunted-house
+peon packs use haunted-house
 ```
