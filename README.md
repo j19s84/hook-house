@@ -1,4 +1,4 @@
-# hook-house 🛎️🏭
+# hook-house 🛎️🏭 
 
 Seasonal/themed sound packs for [peon-ping](https://github.com/PeonPing/peon-ping) — the tool that plays voice lines and shows desktop notifications when Claude Code needs your attention.
 
@@ -11,7 +11,7 @@ Each theme lives in its own folder and is a self-contained peon-ping pack (an `o
 | Haunted House | [`haunted-house/`](./haunted-house) | ✅ Ready |
 | Christmas | `christmas/` | 🔜 Planned |
 
-## Installing a pack
+## Claude installatioj
 
 ```bash
 peon packs install-local /path/to/hook-house/haunted-house
@@ -58,7 +58,7 @@ Run the Codex plugin smoke tests from the repository root:
 bash tests/test-codex-plugin.sh
 ```
 
-## Muting sounds temporarily (`/ping-snooze`, `/ping-start`)
+## Muting sounds temporarily (`/ping-snooze`, `/ping-start`) for Claude
 
 If someone finds the sounds too much after a few hours, there are two companion Claude Code skills — [`skills/ping-snooze/SKILL.md`](./skills/ping-snooze/SKILL.md) and [`skills/ping-start/SKILL.md`](./skills/ping-start/SKILL.md) — that mute/resume peon-ping.
 
