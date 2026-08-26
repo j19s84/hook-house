@@ -42,6 +42,20 @@ The Codex plugin is self-contained and does not require peon-ping. It supports
 macOS (`afplay` plus `terminal-notifier` or Notification Center), Linux
 (`paplay`, `aplay`, or `ffplay` plus `notify-send`), and Windows PowerShell.
 
+### Disable Codex's default bell
+
+If Codex plays its built-in terminal bell alongside the Hook House sound, run
+`/ping-no-bell` after installing the plugin. Alternatively, add this to your
+user-level `~/.codex/config.toml` (add only the key if `[tui]` already exists):
+
+```toml
+[tui]
+notifications = false
+```
+
+This disables Codex's built-in terminal notification while leaving Hook House
+sounds and desktop notifications active. Run `/ping-no-bell off` to restore it.
+
 To update later:
 
 ```bash
