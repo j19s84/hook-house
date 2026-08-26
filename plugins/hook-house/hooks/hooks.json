@@ -1,0 +1,77 @@
+{
+  "description": "Hook House sounds and desktop notifications for Codex lifecycle events.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${PLUGIN_ROOT}/scripts/hook-house.sh\"",
+            "commandWindows": "powershell -NoProfile -ExecutionPolicy Bypass -File \"${PLUGIN_ROOT}\\scripts\\hook-house.ps1\"",
+            "timeout": 30,
+            "async": true,
+            "statusMessage": "Ringing Hook House"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${PLUGIN_ROOT}/scripts/hook-house.sh\"",
+            "commandWindows": "powershell -NoProfile -ExecutionPolicy Bypass -File \"${PLUGIN_ROOT}\\scripts\\hook-house.ps1\"",
+            "timeout": 30,
+            "async": true,
+            "statusMessage": "Ringing Hook House"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "manual|auto",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${PLUGIN_ROOT}/scripts/hook-house.sh\"",
+            "commandWindows": "powershell -NoProfile -ExecutionPolicy Bypass -File \"${PLUGIN_ROOT}\\scripts\\hook-house.ps1\"",
+            "timeout": 30,
+            "async": true,
+            "statusMessage": "Ringing Hook House"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${PLUGIN_ROOT}/scripts/hook-house.sh\"",
+            "commandWindows": "powershell -NoProfile -ExecutionPolicy Bypass -File \"${PLUGIN_ROOT}\\scripts\\hook-house.ps1\"",
+            "timeout": 30,
+            "async": true,
+            "statusMessage": "Ringing Hook House"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${PLUGIN_ROOT}/scripts/hook-house.sh\"",
+            "commandWindows": "powershell -NoProfile -ExecutionPolicy Bypass -File \"${PLUGIN_ROOT}\\scripts\\hook-house.ps1\"",
+            "timeout": 30,
+            "async": true,
+            "statusMessage": "Ringing Hook House"
+          }
+        ]
+      }
+    ]
+  }
+}

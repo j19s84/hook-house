@@ -20,6 +20,44 @@ peon packs use haunted-house
 
 Or copy the folder directly into `~/.claude/hooks/peon-ping/packs/`.
 
+## Codex installation
+
+Hook House is also a self-contained Codex plugin. Add this repository as a
+marketplace, then install the plugin:
+
+```bash
+codex plugin marketplace add j19s84/hook-house
+codex plugin add hook-house@hook-house
+```
+
+Restart Codex after installation. The first time the command hooks are seen,
+open `/hooks` and review/trust them. Hook House then plays a themed sound and
+shows a desktop notification for session start, turn completion, permission
+requests, context compaction, and subagent completion.
+
+See the [official Codex hooks documentation](https://developers.openai.com/codex/hooks)
+for hook review, event payloads, and plugin hook discovery.
+
+The Codex plugin is self-contained and does not require peon-ping. It supports
+macOS (`afplay` plus `terminal-notifier` or Notification Center), Linux
+(`paplay`, `aplay`, or `ffplay` plus `notify-send`), and Windows PowerShell.
+
+To update later:
+
+```bash
+codex plugin marketplace upgrade hook-house
+codex plugin remove hook-house@hook-house
+codex plugin add hook-house@hook-house
+```
+
+## Development
+
+Run the Codex plugin smoke tests from the repository root:
+
+```bash
+bash tests/test-codex-plugin.sh
+```
+
 ## Muting sounds temporarily (`/ping-snooze`, `/ping-start`)
 
 If someone finds the sounds too much after a few hours, there are two companion Claude Code skills — [`skills/ping-snooze/SKILL.md`](./skills/ping-snooze/SKILL.md) and [`skills/ping-start/SKILL.md`](./skills/ping-start/SKILL.md) — that mute/resume peon-ping.

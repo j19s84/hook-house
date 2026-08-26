@@ -1,0 +1,104 @@
+{
+  "cesp_version": "1.0",
+  "name": "haunted-house",
+  "display_name": "Haunted House",
+  "version": "1.0.0",
+  "author": {
+    "name": "j19s84",
+    "github": "j19s84"
+  },
+  "license": "Mixed — see CREDITS.md for per-sound licenses",
+  "language": "en",
+  "icon": "icons/demon.png",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/ICanSeeYou.wav",
+          "label": "I can see you",
+          "sha256": "1f6438e03a7bb1ee069e9169c3d76d44f3df35a50796e97524a475fe24439f90"
+        },
+        {
+          "file": "sounds/EerieForest.wav",
+          "label": "Eerie forest",
+          "sha256": "001b4ba8729161416a2970cb0aa8ff2587533c65c51033cbf32ff9dba1c2ba73"
+        }
+      ]
+    },
+    "task.complete": {
+      "icon": "icons/skeleton.png",
+      "sounds": [
+        {
+          "file": "sounds/WelcomeToTheDarkSide.wav",
+          "label": "Welcome to the dark side",
+          "sha256": "da0d680e8d8af57e212af7bc4474db1796afd4a1025e43cb5d10f63383360d66"
+        },
+        {
+          "file": "sounds/MusicBoxes.wav",
+          "label": "33 music boxes",
+          "sha256": "650d88fee3f0bebcf9ef8a601117e9369fe36440f5ef654c58bbd2d493a22b98"
+        }
+      ]
+    },
+    "task.error": {
+      "icon": "icons/demon-orange.png",
+      "sounds": [
+        {
+          "file": "sounds/No.wav",
+          "label": "No",
+          "sha256": "4c518df9ecc8d3c959115584f4d8f461121064811bcfa96b00ac21c8d9d1af8b"
+        },
+        {
+          "file": "sounds/HorrorLaugh.wav",
+          "label": "Horror laugh",
+          "sha256": "4b913ecb967ab183588784db0c7bc2cb37364966a08ba30b46d4afe19f938dc2"
+        }
+      ]
+    },
+    "input.required": {
+      "icon": "icons/witch-yellow.png",
+      "sounds": [
+        {
+          "file": "sounds/CreatureGrowl.wav",
+          "label": "Threatening creature growl",
+          "sha256": "0d77221b4c3c0719058612e4d3b35ae491b2dee003844c5bc7c027e246dd1927"
+        },
+        {
+          "file": "sounds/Crow.wav",
+          "label": "Crow",
+          "sha256": "ca0b72df73978ade7d4a374c3a43a4c67c323510cea259dfb24f62a5e573d06e"
+        }
+      ]
+    },
+    "resource.limit": {
+      "icon": "icons/skeleton-red.png",
+      "sounds": [
+        {
+          "file": "sounds/ItsTooLate.wav",
+          "label": "It's too late, he is already dead",
+          "sha256": "b823191b94f901d77434573d19122444def9e50a91e2e8dcf33973cd3074fd57"
+        },
+        {
+          "file": "sounds/WitchLaugh.wav",
+          "label": "Witch laugh",
+          "sha256": "e4f581cb53a8e0dda73938993d3b52562617dae540cdb312b01c83e9c73e6105"
+        }
+      ]
+    },
+    "user.spam": {
+      "icon": "icons/witch-orange.png",
+      "sounds": [
+        {
+          "file": "sounds/CanYouFeelIt.wav",
+          "label": "Can you feel it?",
+          "sha256": "0cc4d332512415c1e1cfe9bf6e68a4e1eb0228f657caecc8abd80de78a6f52b1"
+        },
+        {
+          "file": "sounds/NightmareSoundscape.wav",
+          "label": "Nightmare soundscape",
+          "sha256": "62440cb4a4d0fa336d0cd9409743afa968aeaa57f380f2d3b21190f55eb5d4df"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "hook-house",
+  "version": "1.0.0",
+  "description": "Seasonal sounds and desktop notifications for Codex lifecycle events.",
+  "author": {
+    "name": "j19s84",
+    "url": "https://github.com/j19s84"
+  },
+  "homepage": "https://github.com/j19s84/hook-house",
+  "repository": "https://github.com/j19s84/hook-house",
+  "license": "MIT",
+  "keywords": ["notifications", "sounds", "hooks", "codex"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Hook House",
+    "shortDescription": "Haunted sounds when Codex needs you.",
+    "longDescription": "Plays themed sounds and shows desktop notifications when Codex starts, completes work, requests permission, or compacts context.",
+    "developerName": "j19s84",
+    "category": "Productivity",
+    "capabilities": ["Hooks", "Notifications"],
+    "defaultPrompt": [
+      "Snooze Hook House sounds for an hour.",
+      "Turn Hook House sounds back on."
+    ],
+    "brandColor": "#47735C",
+    "composerIcon": "./assets/icon.png"
+  }
+}
