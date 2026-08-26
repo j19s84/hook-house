@@ -1,6 +1,6 @@
 {
   "name": "hook-house",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Seasonal sounds and desktop notifications for Codex lifecycle events.",
   "author": {
     "name": "j19s84",
@@ -20,7 +20,8 @@
     "capabilities": ["Hooks", "Notifications"],
     "defaultPrompt": [
       "Snooze Hook House sounds for an hour.",
-      "Turn Hook House sounds back on."
+      "Turn Hook House sounds back on.",
+      "Suspend other Codex notification sounds."
     ],
     "brandColor": "#47735C",
     "composerIcon": "./assets/icon.png"
