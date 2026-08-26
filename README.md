@@ -24,7 +24,7 @@ Or copy the folder directly into `~/.claude/hooks/peon-ping/packs/`.
 
 If someone finds the sounds too much after a few hours, there are two companion Claude Code skills — [`skills/ping-snooze/SKILL.md`](./skills/ping-snooze/SKILL.md) and [`skills/ping-start/SKILL.md`](./skills/ping-start/SKILL.md) — that mute/resume peon-ping.
 
-To install them:
+To install those extra skills:
 
 ```bash
 mkdir -p ~/.claude/skills/ping-snooze ~/.claude/skills/ping-start
@@ -32,7 +32,7 @@ cp skills/ping-snooze/SKILL.md ~/.claude/skills/ping-snooze/SKILL.md
 cp skills/ping-start/SKILL.md ~/.claude/skills/ping-start/SKILL.md
 ```
 
-Then use them like:
+Then use those skills like:
 
 ```
 /ping-snooze 3       # mute for ~3 hours
