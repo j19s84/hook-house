@@ -11,7 +11,7 @@ Each theme lives in its own folder and is a self-contained peon-ping pack (an `o
 | Haunted House | [`haunted-house/`](./haunted-house) | ✅ Ready |
 | Christmas | `christmas/` | 🔜 Planned |
 
-## Claude installatioj
+## Claude installation
 
 ```bash
 peon packs install-local /path/to/hook-house/haunted-house
