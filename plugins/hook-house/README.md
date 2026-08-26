@@ -21,7 +21,7 @@ stored in the plugin data directory, so it survives plugin upgrades.
 
 ## Disable Codex's default bell
 
-Codex can emit its own terminal notification in addition to Hook House. Run
-`/ping-no-bell` to set `tui.notifications = false` in the user-level Codex
-configuration without disabling Hook House. Run `/ping-no-bell off` to restore
-the built-in notification.
+Codex can emit its own terminal notification or run a top-level custom `notify`
+command in addition to Hook House. Run `/ping-no-bell` to suspend both in the
+user-level Codex configuration without disabling Hook House. Run
+`/ping-no-bell off` to restore the exact settings saved by the command.

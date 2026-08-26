@@ -44,9 +44,12 @@ macOS (`afplay` plus `terminal-notifier` or Notification Center), Linux
 
 ### Disable Codex's default bell
 
-If Codex plays its built-in terminal bell alongside the Hook House sound, run
-`/ping-no-bell` after installing the plugin. Alternatively, add this to your
-user-level `~/.codex/config.toml` (add only the key if `[tui]` already exists):
+If Codex plays its built-in terminal bell or a custom notification sound
+alongside Hook House, run `/ping-no-bell` after installing the plugin. The
+command suspends both `[tui] notifications` and a top-level `notify` command
+while preserving their exact values for restoration. To disable only the
+built-in terminal notification manually, add this to your user-level
+`~/.codex/config.toml` (add only the key if `[tui]` already exists):
 
 ```toml
 [tui]
@@ -54,7 +57,8 @@ notifications = false
 ```
 
 This disables Codex's built-in terminal notification while leaving Hook House
-sounds and desktop notifications active. Run `/ping-no-bell off` to restore it.
+sounds and desktop notifications active. Run `/ping-no-bell off` to restore
+settings previously suspended by the command.
 
 To update later:
 

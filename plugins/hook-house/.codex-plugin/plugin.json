@@ -21,7 +21,7 @@
     "defaultPrompt": [
       "Snooze Hook House sounds for an hour.",
       "Turn Hook House sounds back on.",
-      "Disable Codex's default terminal bell."
+      "Suspend other Codex notification sounds."
     ],
     "brandColor": "#47735C",
     "composerIcon": "./assets/icon.png"

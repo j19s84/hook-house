@@ -1,4 +1,4 @@
 interface:
   display_name: "Disable Codex Bell"
-  short_description: "Keep Hook House audio without the default bell"
-  default_prompt: "Disable Codex's default terminal bell while keeping Hook House sounds active."
+  short_description: "Keep Hook House audio without other Codex sounds"
+  default_prompt: "Suspend other Codex notification sounds while keeping Hook House active."
