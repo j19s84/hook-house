@@ -4,12 +4,14 @@ A peon-ping pack built from CC0/CC-BY Halloween sound clips (see [CREDITS.md](./
 
 | Event | Sound | Icon |
 |---|---|---|
-| `session.start` | "I can see you" / "Eerie forest" | demon (default) |
-| `task.complete` | "Welcome to the dark side" / "33 music boxes" | skeleton |
-| `task.error` | "No" / "Horror laugh" | demon (default) |
-| `input.required` | Threatening creature growl / Crow | demon (default) |
-| `resource.limit` | "It's too late, he is already dead" / "Witch laugh" | demon (default) |
-| `user.spam` | "Can you feel it?" / "Nightmare soundscape" | demon (default) |
+| `session.start` | "I can see you" / "Eerie forest" | demon, green (default) |
+| `task.complete` | "Welcome to the dark side" / "33 music boxes" | skeleton, green |
+| `task.error` | "No" / "Horror laugh" | demon, orange |
+| `input.required` | Threatening creature growl / Crow | witch, yellow |
+| `resource.limit` | "It's too late, he is already dead" / "Witch laugh" | skeleton, red |
+| `user.spam` | "Can you feel it?" / "Nightmare soundscape" | witch, orange |
+
+Icon colors are a simple severity scale: green = normal, yellow = needs your attention, orange = warning, red = critical.
 
 ## Install
 
