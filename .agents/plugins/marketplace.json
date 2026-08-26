@@ -1,0 +1,20 @@
+{
+  "name": "hook-house",
+  "interface": {
+    "displayName": "Hook House"
+  },
+  "plugins": [
+    {
+      "name": "hook-house",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hook-house"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
