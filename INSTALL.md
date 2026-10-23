@@ -16,7 +16,7 @@ Supported OS for sound and notifications: macOS, Linux, Windows (Codex only).
 
 Hook House packs for Claude Code are [peon-ping](https://github.com/PeonPing/peon-ping) packs, so peon-ping must be installed first.
 
-1. Check for peon-ping: run `peon --version`. If the command is not found, also check for `~/.claude/hooks/peon-ping/peon.sh`.
+1. Check for peon-ping: run `command -v peon`. If the command is not found, also check for `~/.claude/hooks/peon-ping/peon.sh`.
 2. If peon-ping is missing, stop and tell the user. Install it by following the README at https://github.com/PeonPing/peon-ping, then continue. Do not guess an install command.
 3. Clone this repo somewhere permanent (not `/tmp`). The pack is copied at install time, so the clone can be deleted afterwards:
    ```bash
@@ -40,7 +40,7 @@ Hook House packs for Claude Code are [peon-ping](https://github.com/PeonPing/peo
 ## Uninstall: Claude Code
 
 1. If `haunted-house` is the active pack, switch to another one first, for example `peon packs use peon`. Check `peon packs list` for what is installed.
-2. Remove the pack: `peon packs remove haunted-house`. If that fails, delete the folder `~/.claude/hooks/peon-ping/packs/haunted-house`.
+2. Remove the pack: `echo y | peon packs remove haunted-house`. The command asks for confirmation and prints "Cancelled." without the `y`. If it still fails, delete the folder `~/.claude/hooks/peon-ping/packs/haunted-house`.
 3. Remove the optional skills if present: delete `~/.claude/skills/ping-snooze` and `~/.claude/skills/ping-start`.
 4. Optional: delete the clone at `~/hook-house` if you created it. Ask the user first.
 5. Do **not** uninstall peon-ping itself unless the user asks. Other sounds and packs depend on it.
